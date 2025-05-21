@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
-    # Hier könnte deine KI-Logik stehen. Aktuell simulieren wir einfach eine Antwort.
+    # AI Dummy data
     result = {
         "message": "Ergebnis der KI-Analyse",
         "input": data
